@@ -22,6 +22,9 @@ const salaryDetails = [
 	{name: 'Nina', salary: 3500},
 	{name: 'Otis', salary: 2800}
 ];
+for (let i = 0; i < salaryDetails.length; i++) {
+	console.log("Beste " + salaryDetails[i].name + ", je salaris van " + salaryDetails[i].salary + " is zojuist overgemaakt. Val me nu alsjeblieft niet meer lastig");
+	}
 
 // ==========================================
 // Opdracht 2. Wanneer iemand een verlof-aanvraag doet, moet Bob eerst uit zijn hoofd uitrekenen of deze medewerker nog
